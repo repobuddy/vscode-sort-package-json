@@ -6,13 +6,13 @@
 	"categories": [
 		"Other"
 	],
-	"homepage": "https://github.com/unional/vscode-sort-package-json#readme",
+	"homepage": "https://github.com/repobuddy/vscode-sort-package-json#readme",
 	"bugs": {
-		"url": "https://github.com/unional/vscode-sort-package-json/issues"
+		"url": "https://github.com/repobuddy/vscode-sort-package-json/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/unional/vscode-sort-package-json.git"
+		"url": "git+https://github.com/repobuddy/vscode-sort-package-json.git"
 	},
 	"license": "MIT",
 	"publisher": "unional",
