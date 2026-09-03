@@ -42,7 +42,7 @@ on:
     - created
 jobs:
   code:
-    uses: unional/.github/.github/workflows/pnpm-verify.yml@main
+    uses: repobuddy/.github/.github/workflows/pnpm-verify.yml@v2
     with:
       os: '["ubuntu-latest"]'
       node-version: '[24]'
@@ -76,5 +76,5 @@ jobs:
         VSCE_PAT: ${{ secrets.VSCE_PAT }}
         OVSX_PAT: ${{ secrets.OPEN_VSX_TOKEN }}
   # docgen:
-  #     uses: unional/.github/.github/workflows/pnpm-docs.yml@main
+  #     uses: repobuddy/.github/.github/workflows/pnpm-docs.yml@v2
   #     needs: release
